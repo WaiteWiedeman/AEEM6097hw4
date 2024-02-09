@@ -8,6 +8,8 @@ end
 
 figure;
 plot(xs,ys,xs,xs.^2)
+xlabel('Input variable "x"')
+ylabel('Ouput variable "y"')
 %y = mfis(0)
 %----------------------------------------------------------------------------
 %                   STAGE ONE: DEFINE FUZZY SETS

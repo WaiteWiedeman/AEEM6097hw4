@@ -31,6 +31,7 @@ end
 figure(2)
 plot(x1,NB,x1,NS,x1,NM,x1,NZ,x1,PZ,x1,PM,x1,PS,x1,PB) %x1,Z,
 xlabel('Input variable "x"')
+legend('NB','NS','NM','NZ','PZ','PM','PS','PB');
 
 %*************************************************************************
 % Calculate the Fuzzy function Apprioximatin using Takagi-Sugeno Approach
